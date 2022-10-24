@@ -11,7 +11,8 @@
 
 ## Preview
 
-<img src="https://user-images.githubusercontent.com/86893073/196641686-474b8b62-f0c2-4e07-9e02-82c8ddba50d8.jpg" rel="">
+<img src="https://user-images.githubusercontent.com/86893073/197618048-3fd0384c-1564-4682-98f2-2ca60e9e6796.jpg" rel="">
+
 
 ## Demo site
 
