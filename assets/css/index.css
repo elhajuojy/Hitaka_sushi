@@ -1,0 +1,82 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: #28292D;
+    padding: 15vh 5%;
+    font-size: 1 rem;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    font-size:0.8rem ;
+    margin-bottom:20px ;
+}
+
+/* finish the welcome section   */
+
+
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto auto;
+    padding: 10vh 0 ;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #28292D; */
+}
+.section p{
+    font-size:0.8rem ;
+    margin-bottom:20px ;
+}
+
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    /* width: 90%; */
+    padding: 15vh 5%;
+    margin: auto auto;
+    background-color: #28292D;
+}
+
+.section-2 h1{
+    color: #fcf8f8ad;
+    /* opacity: 0.7; */
+}
+.section-3{
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 15vh 5%;
+    margin: auto auto;
+    border-radius: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+h1{
+    font-size:1.4rem ;
+    margin: 20px  0;
+}
+
+
+@media (min-width: 980px) {
+    .section-1,.section-2,.section-3,.header{
+        padding: 5% 10% ;
+        padding: auto;
+        align-items: center;
+    }
+    p{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .header{
+        /* margin-top: 15vh; */
+        padding-top: 20vh;
+    }
+}

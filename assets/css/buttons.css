@@ -1,0 +1,17 @@
+
+
+/* btn btn-view */
+.btn{
+    border-style: none;
+    padding: 1em 2em;
+}
+.btn-view {
+    background-color: transparent;
+    border : 1px solid  #FcF8F8;
+    border-radius: 3px;
+    color :#FcF8F8;
+    /* opacity: 0.8; */
+}
+
+
+
