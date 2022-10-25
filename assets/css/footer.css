@@ -3,12 +3,19 @@
     padding: 4vh 0px;
     display: grid;
     gap :20px;
+    text-align: center;
     background: #f2eff931;
     font-size: 0.2 rem ;
 }
 
-.footer-logos a{
-    font-size: 0.1rem;
-    width: 40% !important;
+.footer p{
+    font-size: 0.9rem;
+    color: #666;
+    margin: auto;
+}
+
+
+.footer-logos img{
+    width: 30px !important;
 }
 
