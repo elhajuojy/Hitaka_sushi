@@ -10,9 +10,18 @@
     border : 1px solid  #FcF8F8;
     border-radius: 3px;
     color :#FcF8F8;
+    transition: 0.3s ease-in-out;
     /* opacity: 0.8; */
 }
 
+.btn-view:hover{
+    background-color: #f72929ec;
+    border : 1px solid  #f72929ec;
+    cursor: pointer;
+    border-radius: 3px;
+    color :#292020;
+
+}
 .btn-contact{
     background-color: #FF4848;
     /* border : 1px solid  #FcF8F8; */
