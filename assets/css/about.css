@@ -57,6 +57,7 @@
 
 .our-chefs-section{
     padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -86,5 +87,6 @@
 
 .our-chefs-container{
     display: grid;
-    grid-template-columns: repeat(auto-fiT,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fiT,minmax(390px,1fr));
+    gap: 20px;
 }
