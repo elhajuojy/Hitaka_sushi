@@ -1,0 +1,90 @@
+
+.about-cover{
+    background-image: url("../images/about/nav-bg1-about.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 50vh;
+    padding-top: 30vh;
+    text-align: center;
+    width: 100%;
+}
+
+.about-cover h1{ 
+    font-size: 2rem;
+    color: white;
+    align-items: flex-start;
+}
+
+/* about cover end  */
+
+/* our story section start  */
+
+.our-story-section{
+    width: 85%;
+    margin: auto;
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fiT,minmax(300px,1fr));
+    gap: 20px;
+    justify-content: center ;
+    align-items: center;
+}
+.our-story-section .our-story-content{
+    text-align: center;
+}
+
+
+.our-story-section .our-story-content h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color : #28292D;
+    padding-bottom: 20px;
+}
+
+
+
+.our-story-section .our-story-content p{
+    padding-bottom: 20px;
+    color : #28292D;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* our story section end  */
+
+
+.our-chefs-section{
+    padding-top: 10vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr ;
+
+}
+
+
+.our-chefs-section h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color : #28292D;
+    padding-bottom: 4vh;
+}
+
+.our-chefs-section p{
+    width: 80%;
+    padding: 3vh 0vh;
+    margin: auto;
+}
+.our-chefs-section h3{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.our-chefs-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fiT,minmax(300px,1fr));
+}
