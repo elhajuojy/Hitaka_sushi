@@ -7,7 +7,7 @@
 
 ## Link Figma
 
-<a href="https://www.figma.com/file/KvKWnqOY8RqettLNBR2aL1/Hitaka_sushi?node-id=0%3A1" rel="figma " target="_blank">Figma SineMKT</a>
+<a href="https://www.figma.com/file/KvKWnqOY8RqettLNBR2aL1/Hitaka_sushi?node-id=0%3A1" rel="figma " target="_blank">Figma Hitaka</a>
 
 ## Preview
 
