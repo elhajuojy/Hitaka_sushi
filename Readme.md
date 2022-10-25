@@ -16,7 +16,7 @@
 
 ## Demo site
 
-<a href="" rel="nofollow" target="_blank">Demo</a>
+<a href="https://elhajuojy.github.io/Hitaka_sushi/" rel="nofollow" target="_blank">Demo</a>
 
 ## Author
 
