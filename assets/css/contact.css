@@ -1,0 +1,80 @@
+
+.contact-cover{
+    background-image: url("../images/contact/bg1-contact.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: start center;
+    height: 50vh;
+    padding-top: 30vh;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-cover h1{ 
+    font-size: 2rem;
+    color: white;
+    align-items: flex-start;
+}
+
+/* about cover end  */
+
+
+.contact-section{
+    width: 85%;
+    margin-left: 9vw ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 700px;
+}
+.contact-section p{
+    font-size: 1rem;
+    /* margin: 10px; */
+    
+}
+
+input{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.message-area{
+    grid-column: span 2;
+    height: 125px;
+    text-align: top;
+    justify-self: end;
+    align-items: top;
+    margin-bottom: 20px;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    resize: none;
+}
+
+@media (min-width: 768px) {
+    .inputs-filed{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    input{
+        margin: 0px;
+    }
+    .message-area{
+        grid-column: span 2;
+    }
+
+}
+

@@ -13,5 +13,16 @@
     /* opacity: 0.8; */
 }
 
+.btn-contact{
+    background-color: #FF4848;
+    /* border : 1px solid  #FcF8F8; */
+    border-radius: 3px;
+    color :#FcF8F8;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
 
-
+.btn-contact:hover{ 
+    background-color: #f72929ec;
+    /* transform: scale(0.99); */
+}
