@@ -4,10 +4,241 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="discraption" content="">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./assets/css/buttons.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/custom_select.css">
+    <title>Hitaka sushi </title>
 </head>
 <body>
-
+    
+    
+    <div class="container">
+         <!-- navbar start  -->
+         <div class="navbar">
+            <div class="navbar-left navbar-logo"><img src="./assets/logo/2x/Asset 6@2x.png" alt="Hitaka sushi logo "></div>
+            <div class="nav-center nav-menu">
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./shop.html">shop</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right navbar-iconshop">
+                <img src="./assets/icons/shop-icon.svg" alt="shop icon">
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- shop cover start  -->
+        <div class="shop-cover">
+            <div class="search-filed">
+                <img src="./assets/icons/search.svg" alt="">
+                <input type="search"  id="search" placeholder="search for your favorite recipe ...">
+            </div>
+            
+        </div>
+        <!-- shop cover end -->
+        <div class="shop-container">
+            <div class="main-shop-section">
+                <!-- Custom Select start  -->
+                <!-- <div class="select-box">
+                    <div class="select-box__current" tabindex="1">
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked"/>
+                        <p class="select-box__input-text">Cream</p>
+                      </div>
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="1" value="2" name="Ben"/>
+                        <p class="select-box__input-text">Cheese</p>
+                      </div>
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="2" value="3" name="Ben"/>
+                        <p class="select-box__input-text">Milk</p>
+                      </div>
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="3" value="4" name="Ben"/>
+                        <p class="select-box__input-text">Honey</p>
+                      </div>
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="4" value="5" name="Ben"/>
+                        <p class="select-box__input-text">Toast</p>
+                      </div><img class="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true"/>
+                    </div>
+                    <ul class="select-box__list">
+                      <li>
+                        <label class="select-box__option" for="0" aria-hidden="aria-hidden">Cream</label>
+                      </li>
+                      <li>
+                        <label class="select-box__option" for="1" aria-hidden="aria-hidden">Cheese</label>
+                      </li>
+                      <li>
+                        <label class="select-box__option" for="2" aria-hidden="aria-hidden">Milk</label>
+                      </li>
+                      <li>
+                        <label class="select-box__option" for="3" aria-hidden="aria-hidden">Honey</label>
+                      </li>
+                      <li>
+                        <label class="select-box__option" for="4" aria-hidden="aria-hidden">Toast</label>
+                      </li>
+                    </ul>
+                </div> -->
+                <!-- Custom Select end  -->
+                <div class="shop-select">
+                    <select name="food-category" id="pet-select">
+                        <option class="select-item" value="" hidden> Select your category </option>
+                        <option class="select-item" value="Salade">Salade</option>
+                        <option class="select-item" value="Obento">Obento</option>
+                        <option class="select-item" value="plats">plats</option>
+                        <option class="select-item" value="parrot">Parrot</option>
+                        <option class="select-item" value="spider">Spider</option>
+                        <option class="select-item" value="goldfish">Goldfish</option>
+                    </select>
+                    
+                </div>
+                
+                <h2>Menu </h2>
+                <div class="menu-cards-section">
+                    <!-- card 1 start  -->
+                    <div class="card card1">
+                        <!-- top card start  -->
+                        <div class="top-card">
+                            <div class="card-img">
+                                <img src="./assets/images/shop/products/sushi/Ellipse 16.png" alt="sushi 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Croissant Dinde Fumée Fromage</h3>
+                                <p>Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée...</p>
+                            </div>
+                        </div>
+                        <!-- top card end -->
+                        
+                        <div class="card-bottom">
+                            <div class="price">
+                                <h5>38,00 USD</h5>
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/plus.svg" alt="plus icon">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 1 end -->
+                    <!-- card 1 start  -->
+                    <div class="card card1">
+                        <!-- top card start  -->
+                        <div class="top-card">
+                            <div class="card-img">
+                                <img src="./assets/images/shop/products/sushi/Ellipse 16.png" alt="sushi 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Croissant Dinde Fumée Fromage</h3>
+                                <p>Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée...</p>
+                            </div>
+                        </div>
+                        <!-- top card end -->
+                        
+                        <div class="card-bottom">
+                            <div class="price">
+                                <h5>38,00 USD</h5>
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/plus.svg" alt="plus icon">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 1 end -->
+                    <!-- card 1 start  -->
+                <div class="card card1">
+                        <!-- top card start  -->
+                        <div class="top-card">
+                            <div class="card-img">
+                                <img src="./assets/images/shop/products/sushi/Ellipse 16.png" alt="sushi 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Croissant Dinde Fumée Fromage</h3>
+                                <p>Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée...</p>
+                            </div>
+                        </div>
+                        <!-- top card end -->
+                        
+                        <div class="card-bottom">
+                            <div class="price">
+                                <h5>38,00 USD</h5>
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/plus.svg" alt="plus icon">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 1 end -->
+                </div>
+                
+            </div>
+            <div class="aside-section-card">
+                <div class="cart-total">
+                    <div class="cart-title">
+                        <h3>Your recipes</h3>
+                    </div>
+                    <!-- item 1 start  -->
+                    <div class="item item1">
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <h6 class="num-item">1x</h6>
+                                <p>Classic roll</p>
+                            </div>
+                            <h6 class="item-price">100.30 USD</h6>
+                        </div>
+                        <div class="add-remove-item-icon">
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/plus.svg" alt="plus icon">
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/remove.svg" alt="plus icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item1">
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <h6 class="num-item">1x</h6>
+                                <p>Classic roll</p>
+                            </div>
+                            <h6 class="item-price">100.30 USD</h6>
+                        </div>
+                        <div class="add-remove-item-icon">
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/plus.svg" alt="plus icon">
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/remove.svg" alt="plus icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item1">
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <h6 class="num-item">1x</h6>
+                                <p>Classic roll</p>
+                            </div>
+                            <h6 class="item-price">100.30 USD</h6>
+                        </div>
+                        <div class="add-remove-item-icon">
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/plus.svg" alt="plus icon">
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="./assets/icons/remove.svg" alt="plus icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="app.js"></script>
 </body>
