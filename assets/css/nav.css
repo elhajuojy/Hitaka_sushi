@@ -15,6 +15,21 @@ ul {
     justify-content: space-around;
 }
 
+.burger-menu{
+    display: none;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.burger-menu img{
+    justify-self: center;
+    margin-left: 50px;
+    
+}
 .navbar-logo{
     width: 60%;
     height: 60%;
@@ -37,7 +52,16 @@ ul {
     }
 }
 
+@media (min-width: 760px){
+    .burger-menu{
+        display: none;
+    }
+}
+
 @media (max-width: 760px) {
+    .burger-menu{
+        display: block;
+    }
    .nav-center{
     display: none;
    }
@@ -48,7 +72,7 @@ ul {
     background-color: #28292D;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     }
     .navbar-iconshop{
         justify-self: center;
@@ -60,8 +84,39 @@ ul {
     .navbar-logo{
         width: 60%;
         height: 60%;
-        grid-column: span 2;
+        /* grid-column: span 2; */
         justify-self: right;
         display: flex;
     }
+}
+
+.burger-menu-list{
+    /* border: 1px  solid white; */
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #28292D;
+    margin-left: 10% ;
+    padding: 2em;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.burger-menu-list ul{
+    display: block;    
+}
+
+.burger-menu-list ul li {
+    margin: 1em;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.burger-menu-list ul li:hover {
+    margin: 1em;
+    background-color: red;
+    border-radius: 3px;
+    padding: 5px;
+    
 }
