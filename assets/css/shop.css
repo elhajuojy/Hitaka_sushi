@@ -8,7 +8,10 @@
     width: 100%;
 }
 
+body{
 
+    position: relative;
+}
 #search{
     margin-left: 0;
     border-style: none;
@@ -249,6 +252,7 @@ select{
 
 .total-price:active{
     transform: scale(0.90);
+    
 }
 .total-price h4{
     color: white;
@@ -264,8 +268,67 @@ select{
         position: fixed;
         margin: auto;
         width: 85%;
-        box-shadow: 0px 0px 5px 0px rgba(41, 32, 12, 0.297);
         -webkit-box-shadow: 0px 0px 5px 0px rgba(41,32,12,0.48);
         -moz-box-shadow: 0px 0px 5px 0px rgba(41,32,12,0.48);
+        box-shadow: 0px 0px 5px 0px rgba(41, 32, 12, 0.297);
     }
+}
+
+
+/* place order card  */
+
+
+.place-order-card-container{
+    transition: 0.3s ease-in-out;
+    
+    position: absolute;
+    top: 50vh; 
+    display: none;
+    left: 50vw;
+    transform: translate(-50%, -50%); 
+    border-radius: 10px;
+    padding: 1em;
+    background-color: rgb(244, 239, 239);
+    -webkit-box-shadow: 0px 0px 13px -4px rgba(47,23,221,0.65);
+    -moz-box-shadow: 0px 0px 5px -4px rgba(47,23,221,0.65);
+    box-shadow: 0px 0px 5px -4px rgba(47,23,221,0.65);
+    width: 50%;
+    margin:  auto ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (max-width:888px) {
+    .place-order-card-container{
+        width: 80%;
+        
+    }
+}
+
+.place-order-img{
+    width: 50%;
+    margin: auto;
+}
+.place-order-img img{
+    width: 100%;
+}
+
+.place-order-btn{
+    height: 35px;
+    margin: 10px;
+}
+
+.place-order-btn button{
+    width: 50%;
+    height: 100%;
+    font-size: 1.1rem;
+    padding: 4px;
+    background-color: #616060;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    /* border-radius: 8px; */
+    
 }

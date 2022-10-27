@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For favicon png -->
+	<link rel="shortcut icon" type="image/icon" href="./assets/icons/hitaka-fav-icon.ico"/>
+    
     <meta name="discraption" content="">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="./assets/css/nav.css">
@@ -18,8 +21,8 @@
     
     
     <div class="container">
-         <!-- navbar start  -->
-         <div class="navbar">
+        <!-- navbar start  -->
+        <div class="navbar">
             <div class="burger-menu">
                 <img src="./assets/icons/burger-menu.svg" alt="" srcset="">
                 <div class="burger-menu-list">
@@ -56,56 +59,13 @@
         <!-- shop cover end -->
         <div class="shop-container">
             <div class="main-shop-section">
-                <!-- Custom Select start  -->
-                <!-- <div class="select-box">
-                    <div class="select-box__current" tabindex="1">
-                      <div class="select-box__value">
-                        <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked"/>
-                        <p class="select-box__input-text">Cream</p>
-                      </div>
-                      <div class="select-box__value">
-                        <input class="select-box__input" type="radio" id="1" value="2" name="Ben"/>
-                        <p class="select-box__input-text">Cheese</p>
-                      </div>
-                      <div class="select-box__value">
-                        <input class="select-box__input" type="radio" id="2" value="3" name="Ben"/>
-                        <p class="select-box__input-text">Milk</p>
-                      </div>
-                      <div class="select-box__value">
-                        <input class="select-box__input" type="radio" id="3" value="4" name="Ben"/>
-                        <p class="select-box__input-text">Honey</p>
-                      </div>
-                      <div class="select-box__value">
-                        <input class="select-box__input" type="radio" id="4" value="5" name="Ben"/>
-                        <p class="select-box__input-text">Toast</p>
-                      </div><img class="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true"/>
-                    </div>
-                    <ul class="select-box__list">
-                      <li>
-                        <label class="select-box__option" for="0" aria-hidden="aria-hidden">Cream</label>
-                      </li>
-                      <li>
-                        <label class="select-box__option" for="1" aria-hidden="aria-hidden">Cheese</label>
-                      </li>
-                      <li>
-                        <label class="select-box__option" for="2" aria-hidden="aria-hidden">Milk</label>
-                      </li>
-                      <li>
-                        <label class="select-box__option" for="3" aria-hidden="aria-hidden">Honey</label>
-                      </li>
-                      <li>
-                        <label class="select-box__option" for="4" aria-hidden="aria-hidden">Toast</label>
-                      </li>
-                    </ul>
-                </div> -->
-                <!-- Custom Select end  -->
                 <div class="shop-select">
-                    <select name="food-category" id="pet-select">
+                    <select name="food-category" id="category-select">
                         <option class="select-item" value="" hidden> Select your category </option>
                         <option class="select-item" value="Salade">Salade</option>
                         <option class="select-item" value="Obento">Obento</option>
                         <option class="select-item" value="plats">plats</option>
-                        <option class="select-item" value="parrot">Parrot</option>
+                        <option class="select-item" value="sushi">sushi</option>
                         <option class="select-item" value="spider">Spider</option>
                         <option class="select-item" value="goldfish">Goldfish</option>
                     </select>
@@ -114,21 +74,23 @@
                 
                 <h2>Menu </h2>
                 <div class="menu-cards-section">
+                    <!-- cards container  -->
+                </div>
             </div>
-            <div class="aside-section-card">
+            <div class="aside-section-card" id="cart-items-refersh">
                 <div class="cart-total">
                     <div class="cart-title">
                         <h3>Your recipes</h3>
                     </div>
                     <!-- item 1 start  -->
-                    <div class="item-list">
-                        <div class="item item1">
+                    <div class="item-list" >
+                        <!-- <div class="item item1">
                             <div class="item-info">
                                 <div class="item-info-left">
                                     <h6 class="num-item">1x</h6>
                                     <p>Classic roll</p>
                                 </div>
-                                <h6 class="item-price">100.30 USD</h6>
+                                <h6 class="item-price">00.00 USD</h6>
                             </div>
                             <div class="add-remove-item-icon">
                                 <div class="add-to-cart">
@@ -138,46 +100,13 @@
                                     <img src="./assets/icons/remove.svg" alt="plus icon">
                                 </div>
                             </div>
-                        </div>
-                        <div class="item item1">
-                            <div class="item-info">
-                                <div class="item-info-left">
-                                    <h6 class="num-item">1x</h6>
-                                    <p>Classic roll</p>
-                                </div>
-                                <h6 class="item-price">100.30 USD</h6>
-                            </div>
-                            <div class="add-remove-item-icon">
-                                <div class="add-to-cart">
-                                    <img src="./assets/icons/plus.svg" alt="plus icon">
-                                </div>
-                                <div class="add-to-cart">
-                                    <img src="./assets/icons/remove.svg" alt="plus icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item item1">
-                            <div class="item-info">
-                                <div class="item-info-left">
-                                    <h6 class="num-item">1x</h6>
-                                    <p>Classic roll</p>
-                                </div>
-                                <h6 class="item-price">100.30 USD</h6>
-                            </div>
-                            <div class="add-remove-item-icon">
-                                <div class="add-to-cart">
-                                    <img src="./assets/icons/plus.svg" alt="plus icon">
-                                </div>
-                                <div class="add-to-cart">
-                                    <img src="./assets/icons/remove.svg" alt="plus icon">
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
+                    
                     </div>
                     <!-- item-list end -->
                     <!-- total item price  -->
                     <div class="total-price total-price-btn">
-                        <h4>Total 185.23 USD</h4>
+                        <h4>Total <span id="total-price">00.00</span> USD</h4>
                     </div>
                 </div>
             </div>
@@ -196,6 +125,20 @@
         <!-- footer  end  -->
     </div>
     
+    <div class="place-order-card-container">
+        <div class="place-order-img">
+            <img src="./assets/logo/2x/Asset 5@2x.png" alt="hitaka thank you" srcset="">
+        </div>
+        <div class="place-order-content">
+            <h3>order Successful </h3>
+            <p>Thank you so much for your order</p>
+            
+        </div>
+        <div class="place-order-btn ">
+            <button class="btn-contact">Done</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="app.js"></script>
     <script src="shop.js"></script>
 </body>
