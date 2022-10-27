@@ -347,40 +347,37 @@ categorySect.addEventListener("change",()=>{
 
 
 
-var btnTotal = document.querySelector(".total-price-btn");
-var btnDone = document.querySelector(".place-order-btn");
+// var btnTotal = document.querySelector(".total-price-btn");
+// var btnDone = document.querySelector(".place-order-btn");
 
 
 
-var xx = document.querySelector(".place-order-card-container");
-xx.style.display ="none";
+// var xx = document.querySelector(".place-order-card-container");
+// xx.style.display ="none";
 
-btnDone.addEventListener("click", ()=>{
-    xx.style.display ="none";
-    console.log("remove me ");
-})
+// btnDone.addEventListener("click", ()=>{
+//     xx.style.display ="none";
+//     console.log("remove me ");
+// })
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+// function sleep(ms) {
+//     return new Promise(resolve => setTimeout(resolve, ms));
+// }
 
-async function toggleMenu() {
-    var x = document.querySelector(".place-order-card-container");
-    if (x.style.display === "block") {
-        await sleep( 300);
-        x.style.display = "none";
-    } else {
-        await sleep( 300);
-        x.style.display = "block";
-    }
-}
+// async function toggleMenu() {
+//     var x = document.querySelector(".place-order-card-container");
+//     if (x.style.display === "block") {
+//         await sleep( 300);
+//         x.style.display = "none";
+//     } else {
+//         await sleep( 300);
+//         x.style.display = "block";
+//     }
+// }
 
 
-window.onclick = function() {
-    // toggleMenu();
-}
 
-btnTotal.addEventListener("click",()=> toggleMenu());
+// btnTotal.addEventListener("click",()=> toggleMenu());
 
 
 // contact validation 

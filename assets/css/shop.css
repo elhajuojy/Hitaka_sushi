@@ -264,10 +264,10 @@ select{
     }
     .total-price{
         position: absolute;
-        top: 90vh;
+        top: 89vh;
         position: fixed;
         margin: auto;
-        width: 85%;
+        width: 80%;
         -webkit-box-shadow: 0px 0px 5px 0px rgba(41,32,12,0.48);
         -moz-box-shadow: 0px 0px 5px 0px rgba(41,32,12,0.48);
         box-shadow: 0px 0px 5px 0px rgba(41, 32, 12, 0.297);
