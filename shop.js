@@ -188,6 +188,9 @@ function cartItem(numberItem, itemName, itemPrice,itemId){
     return item ; 
 };
 
+
+
+
 function loadSomeCards(){
 
     for(var item =0 ; item < meals.length ; item++){

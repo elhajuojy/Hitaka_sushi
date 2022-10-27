@@ -34,6 +34,7 @@
 }
 
 
+
 .our-story-section .our-story-content h1{
     font-weight: bold;
     font-size: 2rem;
@@ -89,4 +90,19 @@
     display: grid;
     grid-template-columns: repeat(auto-fiT,minmax(390px,1fr));
     gap: 20px;
+}
+
+@media (max-width: 517px) {
+    *,p{
+        
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .our-chefs-section{
+        width: 100%;
+    }
+    .chef-img{
+        width: 30%;
+        margin:auto ;
+    }
 }
