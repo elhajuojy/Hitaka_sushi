@@ -13,6 +13,11 @@
 
 <img src="https://user-images.githubusercontent.com/86893073/197618048-3fd0384c-1564-4682-98f2-2ca60e9e6796.jpg" rel="">
 
+## Preview Mobile 
+
+
+<img src="https://user-images.githubusercontent.com/86893073/198411278-f4e0d08d-9932-491e-b556-307076d953c7.jpg" rel="">
+
 
 ## Demo site
 
