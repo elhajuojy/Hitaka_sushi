@@ -8,120 +8,120 @@ var meals =
         category:"Salade",
         imgsrc :"./assets/images/shop/products/salade/salad1.png",
         price : "22.33 USD",
-        content : "content 1",
-        title:  "this is title pr1",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 1",
+        title:  "Croissant Dinde Fumée Fromage 1 salade",
     },
     {
         id:2,
         category:"Salade",
         imgsrc :"./assets/images/shop/products/salade/salad2.png",
         price : "22.33 USD",
-        content : "content 2",
-        title:  "this is title pr2",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 2",
+        title:  "Croissant Dinde Fumée Fromage 2 salade",
     },
     {
         id:3,
         category:"Salade",
         imgsrc :"./assets/images/shop/products/salade/salad4.png",
         price : "22.33 USD",
-        content : "content 3",
-        title:  "this is title pr3",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 3",
+        title:  "Croissant Dinde Fumée Fromage 3 salade",
     },
     {
         id:4,
         category:"Obento",
         imgsrc :"./assets/images/shop/products/Obento/ob1.png",
         price : "22.33 USD",
-        content : "content 4",
-        title:  "this is title pr4",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 4",
+        title:  "Croissant Dinde Fumée Fromage 4 obento",
     },
     {
         id:5,
         category:"Obento",
         imgsrc :"./assets/images/shop/products/Obento/ob2.png",
         price : "22.33 USD",
-        content : "content 5",
-        title:  "this is title pr5",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 5",
+        title:  "Croissant Dinde Fumée Fromage 5 obento",
     },
     {
         id:6,
         category:"Obento",
         imgsrc :"./assets/images/shop/products/Obento/ob3.png",
         price : "22.33 USD",
-        content : "content 6",
-        title:  "this is title pr6",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 6",
+        title:  "Croissant Dinde Fumée Fromage 6 obento",
     },
     {
         id:7,
         category:"Obento",
         imgsrc :"./assets/images/shop/products/Obento/ob4.png",
         price : "22.33 USD",
-        content : "content 7",
-        title:  "this is title pr7",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 7",
+        title:  "Croissant Dinde Fumée Fromage 7 obento",
     },
     {
         id:8,
         category:"plats",
         imgsrc :"./assets/images/shop/products/plats/meal1.png",
         price : "22.33 USD",
-        content : "content 8",
-        title:  "this is title pr8",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 8",
+        title:  "Croissant Dinde Fumée Fromage 8 plats",
     },
     {
         id:9,
         category:"plats",
         imgsrc :"./assets/images/shop/products/plats/meal2.png",
         price : "22.33 USD",
-        content : "content 9",
-        title:  "this is title pr9",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 9",
+        title:  "Croissant Dinde Fumée Fromage 9 plats",
     },
     {
         id:10,
         category:"plats",
         imgsrc :"./assets/images/shop/products/plats/meal3.png",
         price : "22.33 USD",
-        content : "content 10",
-        title:  "this is title pr10",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 10",
+        title:  "Croissant Dinde Fumée Fromage 10 plats",
     },
     {
         id:11,
         category:"plats",
         imgsrc :"./assets/images/shop/products/plats/meal4.png",
         price : "22.33 USD",
-        content : "content 11",
-        title:  "this is title pr11",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 11",
+        title:  "Croissant Dinde Fumée Fromage 11 plats",
     },
     {
         id:12,
         category:"sushi",
         imgsrc :"./assets/images/shop/products/sushi/Ellipse 16.png",
         price : "22.33 USD",
-        content : "content 12",
-        title:  "this is title pr12",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 12",
+        title:  "Croissant Dinde Fumée Fromage 12 sushi",
     },
     {
         id:13,
         category:"sushi",
         imgsrc :"./assets/images/shop/products/sushi/Ellipse 19.png",
         price : "22.33 USD",
-        content : "content 13",
-        title:  "this is title pr13",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 13",
+        title:  "Croissant Dinde Fumée Fromage 13 sushi",
     },
     {
         id:14,
         category:"sushi",
         imgsrc :"./assets/images/shop/products/sushi/Ellipse 23.png",
         price : "22.33 USD",
-        content : "content 14",
-        title:  "this is title pr14",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 14",
+        title:  "Croissant Dinde Fumée Fromage 14 sushi",
     },
     {
         id:15,
         category:"sushi",
         imgsrc :"./assets/images/shop/products/sushi/Ellipse 25.png",
         price : "22.33 USD",
-        content : "content 15",
-        title:  "this is title pr15",
+        content : "Un croissant parfaitement feuilleté tartiné de cream-cheese et fourré de filets de dinde fumée et de fromage cheddar. Parfait pour commencer votre journée... 15",
+        title:  "Croissant Dinde Fumée Fromage 15 sushi",
     },
 ]
 
@@ -129,8 +129,19 @@ var cartData =  JSON.parse(localStorage.getItem("cartitems") || "[]");
 var itemList = document.querySelector(".item-list");
 var totalPriceBtn = document.querySelector(".total-price-btn");
 var menuCardsSection = document.querySelector(".menu-cards-section");
+const searchInput = document.querySelector('input[name="search"]');
 
 
+searchInput.addEventListener("input",()=>{
+    // console.log(searchInput.value);
+    menuCardsSection.innerHTML = "";
+    for(var item in meals){
+        const card3 = card(meals[item].imgsrc,meals[item].price,meals[item].content,meals[item].title,meals[item].id);
+        if(meals[item].content.includes(searchInput.value) || meals[item].title.includes(searchInput.value) || meals[item].category == searchInput.value    ){
+            menuCardsSection.innerHTML +=  card3;
+        }
+    }
+})
 
 // window.localStorage.clear();
 // var cartData = window.localStorage.getItem("cartItems");
@@ -140,7 +151,7 @@ function card  ( imgSrc ,price , content,title, itemid)
 
     var item = ` 
     <div class="card card-${itemid}">
-    <div class="top-card">
+    <div class="top-card ">
         <div class="card-img">
             <img src="${imgSrc}" alt="sushi 1">
         </div>
@@ -150,7 +161,6 @@ function card  ( imgSrc ,price , content,title, itemid)
         </div>
     </div>
     <!-- top card end -->
-    
     <div class="card-bottom">
         <div class="price">
             <h5>${price}</h5>
@@ -203,6 +213,7 @@ loadSomeCards();
 
 function loadData(){
     var itemListContainer = document.querySelector(".item-list");
+    itemListContainer.innerHTML = "";
     var totall = 0.0;
     for(var cart in cartData){
         
@@ -210,6 +221,8 @@ function loadData(){
         itemListContainer.innerHTML += itemX;
         totall += parseFloat(cartData[cart].price) * parseInt(cartData[cart].number);
         var totalPrice = document.getElementById("total-price");
+        if(totalPrice== 22.33){
+        }
         totalPrice.textContent  =totall.toFixed(2);
     }
     
@@ -230,44 +243,30 @@ function increment(idItem)
             console.log(element.number);
             console.log(element.id);
             localStorage.setItem("cartitems", JSON.stringify(cartData));
-            // event.preventDefault();
-            // e.preventDefault();
-            location.reload();
-            // refershDiv();
+            loadData();
         }
     });
 }
 
 
-function refershDiv(){
-    $("#cart-items-refersh").load(location.href+"#cart-items-refersh");
-}
 function decrement(idItem)
 {
 
-    console.log("decrement to item "+idItem);
     cartData.forEach(element => {
         if(idItem==element.id){
-            if(element.number >  1)
+            if(element.number > 0)
             {
                 next = element.number -1;
                 element.number =next;
-                console.log(element.number);
-                console.log(element.id);
                 localStorage.setItem("cartitems", JSON.stringify(cartData));
-                // event.preventDefault();
-                // e.preventDefault();
-                location.reload();
-                // refershDiv();
+                loadData();
+                
             }else
             {   
                 const filteredCartItems = cartData.filter(element => element.id !== idItem);
                 cartData = filteredCartItems;
                 localStorage.setItem("cartitems", JSON.stringify(cartData));
-                // event.preventDefault();
-                // e.preventDefault();
-                location.reload();
-                // refershDiv();
+                loadData();
             }
             
         }
@@ -275,7 +274,7 @@ function decrement(idItem)
 }
 
 
-
+//handleclick from card meal 
 
 function  handleClick(id){
     var total = 0.0;
@@ -315,7 +314,7 @@ function  handleClick(id){
                 }
             }
     }
-    console.log(cartData);
+    
     var itemListContainer = document.querySelector(".item-list");
     itemListContainer.innerHTML = "";
     for(var cart in cartData){
@@ -340,7 +339,7 @@ categorySect.addEventListener("change",()=>{
     menuCardsSection.innerHTML = "";
     for(var item in meals){
         const card3 = card(meals[item].imgsrc,meals[item].price,meals[item].content,meals[item].title,meals[item].id);
-        if(meals[item].category === text){
+        if(meals[item].category ===  text){
             console.log(text);
             menuCardsSection.innerHTML +=  card3;
         }
@@ -349,43 +348,3 @@ categorySect.addEventListener("change",()=>{
 
 
 
-
-// var btnTotal = document.querySelector(".total-price-btn");
-// var btnDone = document.querySelector(".place-order-btn");
-
-
-
-// var xx = document.querySelector(".place-order-card-container");
-// xx.style.display ="none";
-
-// btnDone.addEventListener("click", ()=>{
-//     xx.style.display ="none";
-//     console.log("remove me ");
-// })
-
-// function sleep(ms) {
-//     return new Promise(resolve => setTimeout(resolve, ms));
-// }
-
-// async function toggleMenu() {
-//     var x = document.querySelector(".place-order-card-container");
-//     if (x.style.display === "block") {
-//         await sleep( 300);
-//         x.style.display = "none";
-//     } else {
-//         await sleep( 300);
-//         x.style.display = "block";
-//     }
-// }
-
-
-
-// btnTotal.addEventListener("click",()=> toggleMenu());
-
-
-// contact validation 
-
-
-// $(".total-price-btn").click(function(){
-//     $(".place-order-card-container").show('fast');
-//   });

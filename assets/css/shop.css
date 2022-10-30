@@ -150,7 +150,7 @@ select{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 
@@ -203,11 +203,27 @@ select{
 .cart-total{
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    padding:  1em 0.5em;
+    padding:  1em 1em;
     margin:  1em 0.5em;
+    font-size: 10px;
     /* width: 96%; */
     /* margin: auto; */
     text-align: center;
+}
+
+
+@media (max-width: 482px) {
+    .item-info-left p{
+    font-size: 1rem;
+    }
+    .item-info-left h6{
+        font-size: 1rem;
+        
+    }
+    .item-price{
+        font-size: 1rem;
+    
+    }
 }
 
 .item-info{
