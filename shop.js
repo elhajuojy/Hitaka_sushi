@@ -137,7 +137,7 @@ searchInput.addEventListener("input",()=>{
     menuCardsSection.innerHTML = "";
     for(var item in meals){
         const card3 = card(meals[item].imgsrc,meals[item].price,meals[item].content,meals[item].title,meals[item].id);
-        if(meals[item].content.includes(searchInput.value) || meals[item].title.includes(searchInput.value) || meals[item].category == searchInput.value    ){
+        if(meals[item].content.includes(searchInput.value) || meals[item].title.includes(searchInput.value) || meals[item].category == searchInput.value){
             menuCardsSection.innerHTML +=  card3;
         }
     }
@@ -215,17 +215,17 @@ function loadData(){
     var itemListContainer = document.querySelector(".item-list");
     itemListContainer.innerHTML = "";
     var totall = 0.0;
+    var totalPrice = document.getElementById("total-price");
     for(var cart in cartData){
         
         var itemX = cartItem(cartData[cart].number,cartData[cart].title,cartData[cart].price,cartData[cart].id);
         itemListContainer.innerHTML += itemX;
         totall += parseFloat(cartData[cart].price) * parseInt(cartData[cart].number);
-        var totalPrice = document.getElementById("total-price");
-        if(totalPrice== 22.33){
-        }
         totalPrice.textContent  =totall.toFixed(2);
     }
-    
+    if(itemListContainer.children.length == 0){
+        totalPrice.textContent = totall.toFixed(2)
+    }
 
 }
 
@@ -254,13 +254,11 @@ function decrement(idItem)
 
     cartData.forEach(element => {
         if(idItem==element.id){
-            if(element.number > 0)
+            if(element.number > 1)
             {
                 next = element.number -1;
                 element.number =next;
                 localStorage.setItem("cartitems", JSON.stringify(cartData));
-                loadData();
-                
             }else
             {   
                 const filteredCartItems = cartData.filter(element => element.id !== idItem);
@@ -268,7 +266,7 @@ function decrement(idItem)
                 localStorage.setItem("cartitems", JSON.stringify(cartData));
                 loadData();
             }
-            
+            loadData();
         }
     });
 }
