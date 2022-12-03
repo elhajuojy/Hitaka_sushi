@@ -128,8 +128,26 @@ var meals =
 var cartData =  JSON.parse(localStorage.getItem("cartitems") || "[]");
 var itemList = document.querySelector(".item-list");
 var totalPriceBtn = document.querySelector(".total-price-btn");
+var pop = document.querySelector(".pop");
+var btnConfirmOrder = document.querySelector(".btn-confirm-order");
 var menuCardsSection = document.querySelector(".menu-cards-section");
 const searchInput = document.querySelector('input[name="search"]');
+
+btnConfirmOrder.addEventListener("click",()=>{
+    
+    pop.classList.add("hide");
+    localStorage.clear();
+    window.location.reload();
+    
+})
+
+totalPriceBtn.addEventListener("click",()=>{
+
+    // pop.style.display = "block";
+    pop.classList.remove("hide");
+
+});
+
 
 
 searchInput.addEventListener("input",()=>{
@@ -221,9 +239,11 @@ function loadData(){
         itemListContainer.innerHTML += itemX;
         totall += parseFloat(cartData[cart].price) * parseInt(cartData[cart].number);
         var totalPrice = document.getElementById("total-price");
+        var totalpriceConfirm = document.querySelector(".total-price-confirm"); 
         if(totalPrice== 22.33){
         }
-        totalPrice.textContent  =totall.toFixed(2);
+            totalPrice.textContent  =totall.toFixed(2);
+            totalpriceConfirm.textContent  =totall.toFixed(2);
     }
     
 
@@ -325,7 +345,9 @@ function  handleClick(id){
     var allitems = document.getElementsByClassName("item-price");
     var numItems = document.getElementsByClassName("num-item");
     var totalPrice = document.getElementById("total-price");
+    var totalPriceConfirm = document.querySelector(".total-price-confirm");
     totalPrice.textContent  =total.toFixed(2);
+    totalPriceConfirm.textContent  =total.toFixed(2);
 }
 
 
@@ -345,6 +367,5 @@ categorySect.addEventListener("change",()=>{
         }
     }
 });
-
 
 
