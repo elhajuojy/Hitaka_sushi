@@ -18,7 +18,69 @@
 
 /* about cover end  */
 
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+}
 
+
+
+/* contact Section */
+#contact .contact {
+	flex-direction: column;
+	max-width: 600px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#contact .contact-items {
+	/* max-width: 400px; */
+	width: 100%;
+}
+
+#contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 1px 0 #0000002c;
+}
+
+#contact .icon {
+	width: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#contact .contact-info h1 {
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+#contact .contact-info h2 {
+	font-size: 1rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+.information-section{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
 .contact-section{
     width: 85%;
     margin-left: 9vw ;
